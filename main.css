@@ -6,6 +6,9 @@ body#index-body{
     font-family: 'Roboto Slab', serif;
 }
 
+body{
+    background-color: black;
+}
 ul{
     
     margin: 3rem;
@@ -29,6 +32,20 @@ a{
     font-family: 'Roboto Slab', serif;
 }
 
+main{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 3rem;
+    justify-content: center;
+    margin: 1rem;
+}
+
 img{
-    
+    margin: 1rem auto;
+    max-width: 90vw;
+    max-height: 100vh;
+}
+
+p{
+    margin: 0 auto;
 }
