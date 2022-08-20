@@ -24,12 +24,25 @@ li{
     text-align: center;
 }
 
-a{
+body#index-body a{
     color: rgb(0,0,0);
     font-weight: bold;
     font-size: 3rem;
     text-decoration: none;
     font-family: 'Roboto Slab', serif;
+}
+
+a{
+    color: rgb(0,0,0);
+    font-weight: bold;
+    font-size: 1rem;
+    text-decoration: none;
+    font-family: 'Roboto Slab', serif;
+    transition: 0.3s;
+}
+
+a:hover{
+    color: white;
 }
 
 main{
@@ -40,7 +53,7 @@ main{
     margin: 1rem;
 }
 
-img{
+img, iframe{
     margin: 1rem auto;
     max-width: 90vw;
     max-height: 100vh;
@@ -48,4 +61,10 @@ img{
 
 p{
     margin: 0 auto;
+}
+
+ul.lesson-page{
+    display: grid;
+    grid-template-columns: repeat(13, 1fr);
+    margin: 1rem;
 }
