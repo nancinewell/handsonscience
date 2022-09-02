@@ -8,6 +8,9 @@ body#index-body{
 
 body{
     background-color: black;
+    font-family: 'Roboto Slab', serif;
+    color:white;
+    text-align: center;
 }
 ul{
     
@@ -23,9 +26,10 @@ li{
     margin: 1rem;
     text-align: center;
 }
-
+caption{
+    color: white;
+}
 body#index-body a{
-    color:white;
     font-weight: bold;
     font-size: 3rem;
     text-decoration: none;
